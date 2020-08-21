@@ -1,6 +1,5 @@
 import os
 import hashlib
-import termcolor
 
 hash1=""
 hash2=""
@@ -47,5 +46,5 @@ if hash1 == hash2:
 else:
     print("Hash1 is %s" % hash1)
     print("Hash2 is %s" % hash2)
-    termcolor.cprint('Hash incorrect','red')
+    print("Hash incorrect")
     input("Press enter to exit")
