@@ -14,9 +14,9 @@ Notice:
 If the website only provided you a SHA256SUM value then you need to create a text file called sha256sum.txt
 After that paste the hash value inside the text file.
 The SHA256SUM hash format should look like this.
-hashvaule *filename.extension
+hashvalue *filename.extension
 or
-hashvaule filename.extension
+hashvalue filename.extension
 
 For example:
 65afa1b90f3ecc45946793c4c43a47a46dff2e1da0737ce602f5ee12bd946f1e *pycharm-community-2020.2.exe
