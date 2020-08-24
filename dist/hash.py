@@ -27,11 +27,11 @@ with open(filename,"rb") as f:
         sha256_hash.update(byte_block)
 
 hash1=sha256_hash.hexdigest()
+print(hash1)
 
 l=file1.readlines()
 for word in l:
     if filename in word: # find match line by file name
-        print(word) #debug
         clearline1 = word.replace(filename, '') # clear file name
         clearline2 = clearline1.replace('*', '')  # clear *
         clearline3 = clearline2.strip() # clear whitespace and new lines
