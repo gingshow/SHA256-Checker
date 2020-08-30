@@ -29,5 +29,8 @@ For example:
 If you think the download source is untrusted.Never download any files or hash files from them. 
 
 If you have any question feel free to ask me. Thank you!
+gingshowgit@gmail.com
 
 This program is written by Gingshow
+
+
