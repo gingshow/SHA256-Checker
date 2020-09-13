@@ -3,12 +3,16 @@ import hashlib
 
 hash1=""
 hash2=""
+checkSumFName=""
 
-if os.path.isfile('./sha256sum.txt'):
-    print("sha256sum.txt exists")
-    file1 = open("sha256sum.txt", "r")
-else:
-    print("sha256sum.txt does not exists,please make sure your file name is correct")
+for file in os.listdir('.'):
+    if file.endswith(".txt"):
+        checkSumFName = file
+        print("%s exists" % checkSumFName)
+        file1 = open(checkSumFName, "r")
+
+if checkSumFName=="":
+    print("Checksum file does not exists,please make sure your file name is correct")
     input("Press enter to exit")
     exit(0)
 
