@@ -2,7 +2,7 @@
 A simply SHA256-Checker written in Python.
 
 # How to use SHA256-Checker?
-Step 1: Download the file you want to check and sha256sum.txt from the Internet then put them inside dist folder.
+Step 1: Download the file you want to check and SHA256 checksum file from the Internet then put them inside dist folder.
 Step 2: Open hash.exe.
 Step 3: Type the file name.
 (Example:pycharm-community-2020.2.exe). 
